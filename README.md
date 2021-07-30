@@ -70,7 +70,7 @@ python3.6 detect_hardhat_jetson.py --model=model/hardhat.onnx --labels=model/lab
 ```
 #### 4.2. Run without or with Jetson using pth file
 ```
-python3.6 detect_hardhat_demo.py --net-type=mb1-ssd --model=model/hardhat.pth --label=model/labels.txt
+python3.6 detect_hardhat_video_webcam_demo.py --net-type=mb1-ssd --model=model/hardhat.pth --label=model/labels.txt
 ```
 
 > The python version and camera may differs for you.
