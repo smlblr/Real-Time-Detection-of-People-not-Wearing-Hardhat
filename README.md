@@ -42,7 +42,7 @@ I developed an object detection model that can detect people not wearing helmets
 
 ### Demo Video
 
-> The video of me taking on and taking off the helmet can be found [here](https://youtu.be/UXpwbg3JUvM).
+> The video of me taking on and taking off the hardhat can be found [here](https://youtu.be/UXpwbg3JUvM).
 
 [Jetson-inference](https://github.com/dusty-nv/jetson-inference) library is awesome! It provides guide and realtime [DNN Vision](https://github.com/dusty-nv/jetson-inference#api-reference) library for [Jetson Nano/TX1/TX2/Xavier NX/AGX Xavier](http://www.nvidia.com/object/embedded-systems.html). Also this project uses NVIDIA [TensorRT](https://developer.nvidia.com/tensorrt) for fast and efficient detection.
 
