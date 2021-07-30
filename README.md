@@ -24,6 +24,14 @@ I developed an object detection model that can detect people not wearing helmets
 
 <br>
 
+### Loss Graph
+
+<div align="center">
+  <img alt="header" src="model/loss_graph.png">
+</div><br>
+
+### Some Demo Photos
+
 <div align="center">
   <img alt="header" src="media/res1.png">
 </div><br>
@@ -31,6 +39,8 @@ I developed an object detection model that can detect people not wearing helmets
 <div align="center">
   <img alt="header" src="media/res2.png">
 </div><br>
+
+### Demo Video
 
 > The video of me taking on and taking off the helmet can be found [here](https://youtu.be/UXpwbg3JUvM).
 
@@ -56,7 +66,7 @@ cd real-time-hardhat
 ### 4. Run the demo
 #### 4.1. Run with Jetson
 ```
-python3.6 detect_hardhat_jetson.py --model=model/hardhat_50epoch.onnx --labels=model/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes v4l2:///dev/video0 --threshold=0.75
+python3.6 detect_hardhat_jetson.py --model=model/hardhat.onnx --labels=model/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes v4l2:///dev/video0 --threshold=0.65
 ```
 #### 4.2. Run without or with Jetson using pth file
 ```
